@@ -1,0 +1,76 @@
+/* Cerința 2.4: Stiluri definite în fișier extern */
+
+body {
+    font-family: Arial, sans-serif; /* Setarea unui tip de font */
+    background-color: #f4f4f9; /* Culoare de fond generală */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stiluri pentru antet și subsol */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Stilul titlurilor (Cerința: tip și culoare font) */
+h1, h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #007BFF; /* O culoare albastră pentru titluri */
+}
+
+/* Stiluri generale pentru secțiuni (Cerința: culori de fond pentru secțiuni) */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Lățimea generală a secțiunilor */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Cerința: Margini rotunde la afișări */
+    border-radius: 15px;
+}
+
+/* Stiluri pentru tabele (de exemplu, pentru date personale sau rețea) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Cerința: Margini și dimensiuni ale tabelului */
+    margin: 20px 0; 
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Stiluri pentru imagini */
+section img {
+    /* Cerința: Dimensiunea imaginilor */
+    width: 300px; 
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    
+    /* Cerința: Opacitatea imaginilor */
+    opacity: 0.9; 
+    
+    /* Cerința: Margini rotunde (aplicat pe imagini) */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil special pentru secțiunea de monitorizare */
+#monitorizare-resurse {
+    background-color: #E6F7FF; /* O culoare de fond diferită pentru a evidenția secțiunea */
+}
+
+.nota-dublu-click {
+    text-align: center;
+    font-style: italic;
+    color: #FF5733;
+    font-weight: bold;
+}
